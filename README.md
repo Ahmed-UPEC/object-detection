@@ -9,6 +9,10 @@ To do so we need to annotate the data using the [VGG-IMAGE-ANNOTATION](https://w
 3. Export the annotation in a json format and RENAME it with the same name as the image, place the image and the json in the transfer-learning/data/train folder.
 4. Repeat for the other images
 
+Make sure to make another environement using Anaconda (python 3.7.16)
+you can try to install the requirements.txt libs if that does not work delete all packages and install again using the requirements-bis.txt file
+This works in general.
+
 Once done you can train the model using the code in the python script :
 ./transfer-learning/training.py
 Make sure to change the code and adapt it to your needs
